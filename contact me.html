@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact me</title>
+	<link rel="icon" type="image/jpg" href="baby.jpg">
+</head>
+<body>
+	<footer>
+		<h3>
+			<a href="./Best practises.html">Back to portfolio</a>
+		</h3>
+	</footer>
+	<h3> Men bilan bog'laning</h3>
+	<form action="server.php" method="GET">
+		<label for="Username">Username</label>
+		<input type="text" name="Username" id="Username"> <br> <br>
+		<label for="password">Password</label>
+		<input type="password" name="password" id="password"><br><br>
+		<label for="email">Emailingiz</label>
+		<input type="email" name="email" id="email"><br><br>
+		<label for="sana">Tug'ilgan sanangiz</label>
+		<input type="date" name="date" id="sana"><br><br>
+		<label for="student">Talaba</label>
+		<input type="checkbox" name="student" id="student"><br><br>
+		<hr>
+		<label for="erkak">Erkak</label>
+		<input type="radio" name="gender" value="male"><br><br>
+		<label for="ayol">Ayol</label>
+		<input type="radio" name="gender" value="female"><br><br>
+		<label for="passport">Passport</label>
+		<input type="file" name="passport" id="passport"><br><br>
+		<label for="haqida">Siz haqingizda Ma'lumot</label><br>
+		<textarea id="haqida" name="about" rows="10" cols="40"></textarea><br><br>
+		<button type="submit">Register</button>
+	</form>
+
+</body>
+</html>
